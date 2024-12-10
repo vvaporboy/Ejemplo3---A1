@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAPORBOY - Proyecto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header style="background-image: url('images/your-project-header-image.jpg');">
+    <h1 id="project-title">Project Title</h1>
+    <button onclick="window.location.href='index.html'">Volver al Inicio</button>
+  </header>
+
+  <section id="project-details">
+    <p id="project-description">Project description goes here.</p>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400" alt="Project Image 1">
+      <img src="https://via.placeholder.com/400" alt="Project Image 2">
+      <img src="https://via.placeholder.com/400" alt="Project Image 3">
+      <img src="https://via.placeholder.com/400" alt="Project Image 4">
+      <img src="https://via.placeholder.com/400" alt="Project Image 5">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 VAPORBOY. THE MOST REAL VISION.</p>
+  </footer>
+
+  <script src="project.js"></script>
+</body>
+<div id="lightbox" class="hidden">
+    <div class="lightbox-content">
+      <button class="close" onclick="closeLightbox()">×</button>
+      <button class="prev" onclick="prevImage()">❮</button>
+      <img id="lightbox-image" src="" alt="Expanded Image">
+      <button class="next" onclick="nextImage()">❯</button>
+    </div>
+  </div>  
+</html>

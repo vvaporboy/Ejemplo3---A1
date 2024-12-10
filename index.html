@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAPORBOY - Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="home" style="background-image: url('images/your-home-image.jpg');">
+    <h1>VAPORVISION</h1>
+    <button onclick="scrollToSection('portfolio')">Ver Más</button>
+  </header>
+
+  <section id="portfolio">
+    <h2>Mis Proyectos</h2>
+    <div class="gallery">
+      <a href="project.html?id=1">
+        <img src="https://via.placeholder.com/300" alt="Project 1">
+      </a>
+      <a href="project.html?id=2">
+        <img src="https://via.placeholder.com/300" alt="Project 2">
+      </a>
+      <a href="project.html?id=3">
+        <img src="https://via.placeholder.com/300" alt="Project 3">
+      </a>
+      <a href="project.html?id=4">
+        <img src="https://via.placeholder.com/300" alt="Project 4">
+      </a>
+    </div>
+  </section>
+
+  <section id="Contacto">
+    <h2>Habla conmigo</h2>
+    <form id="contactForm">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 VAPORBOY. THE MOST REAL VISION.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
