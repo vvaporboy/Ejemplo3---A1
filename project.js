@@ -1,23 +1,30 @@
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 // data para proyectos
 const projects = {
     1: {
       title: "VBV INTRO: SIMBOLS",
       description: "VAPORBOY presenta su nuevo universo creativo llamado VAPORVISION, y en esta introducción se destacan cuatro símbolos clave que serán fundamentales en todo este nuevo universo. Estos símbolos no solo serán elementos visuales presentes en las creaciones de VAPORBOY, sino que también representarán conceptos y conexiones significativas entre ellas.",
       images: [
-        "images/project1/img1",
-        "images/project1/img2",
-        "images/project1/img3",
-        "images/project1/img4",
+        "images/project1/img1.jpg",
+        "images/project1/img2.jpg",
+        "images/project1/img3.jpg",
+        "images/project1/img4.jpg",
+        "images/project1/img1.jpg",
       ],
     },
     2: {
         title: "Angelica Banner Desing",
         description: "BANNER DESING FOR ANGELICA CLOTHING.",
         images: [
-          "images/project2/img1",
-          "images/project2/img2",
-          "images/project2/img3",
-          "images/project2/img4",
+          "images/project2/img1.jpg",
+          "images/project2/img2.jpg",
+          "images/project2/img3.jpg",
+          "images/project2/img4.jpg",
         ],
       },
     // Agregar más si es necesario
