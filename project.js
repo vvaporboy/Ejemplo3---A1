@@ -43,7 +43,7 @@ const projects = {
     });
   } else {
     document.getElementById("project-details").textContent =
-      "Project not found.";
+      "Proyecto No Encontrado.";
   }
   
   // Lightbox functionality
