@@ -12,9 +12,9 @@ app.use(bodyParser.json());
 // Conexión a la base de datos MySQL
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'alex', // Cambia esto según tu configuración
-    password: '1234', // Cambia esto según tu configuración
-    database: 'Base-Datos.db'
+    user: 'root', // Cambia esto según tu configuración
+    password: '', // Cambia esto según tu configuración
+    database: 'ContactDB.db'
 });
 
 db.connect(err => {
