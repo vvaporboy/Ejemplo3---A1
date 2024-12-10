@@ -14,7 +14,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'alex', // Cambia esto según tu configuración
     password: '1234', // Cambia esto según tu configuración
-    database: 'ContactDB'
+    database: 'Base-Datos.db'
 });
 
 db.connect(err => {
